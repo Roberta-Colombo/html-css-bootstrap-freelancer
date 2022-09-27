@@ -16,11 +16,15 @@ body {
 
 /* Style nav */
 
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
 nav {
     height: 90px;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 /* a:hover .my-hover {
@@ -62,6 +66,7 @@ section {
 #hero img {
     width: 70%;
     max-width: 100%;
+    padding-top: 90px;
     padding-bottom: 1rem;
 }
 
@@ -80,15 +85,42 @@ section {
     background-color: var(--white);
 }
 
-.pic {
-    border-radius: 10px;
-}
-
 #portfolio img {
+    width: 100%;
     max-width: 100%;
-    padding-bottom: 1.5rem;
-    overflow: hidden;
+    border-radius: 10px;
+    display: block;
 }
 
+.card {
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    border-style: none;
+    position: relative;
+} 
+
+.overlay {
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.card:hover .overlay {
+    display: block;
+}
+
+.card i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: var(--white);
+}
 
 
