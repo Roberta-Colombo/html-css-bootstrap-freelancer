@@ -39,6 +39,10 @@ nav {
     background-color: var(--lightblack);
 }
 
+.lightblack-txt {
+    color: var(--lightblack);
+}
+
 /* Style main */
 
 .bg-green {
@@ -50,22 +54,41 @@ nav {
     background-color: var(--darkblue);
 }
 
+section {
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+}
+
 #hero img {
     width: 70%;
     max-width: 100%;
     padding-bottom: 1rem;
-    padding-top: 1rem;
 }
 
 .line {
     border: 1px solid;
     width: 20%;
-    height: 2px;
+    height: 3px;
     border-radius: 5px;
 }
 
-.white {
+.star-deco i {
+    font-size: 2rem;
+}
+
+.bg-white {
     background-color: var(--white);
 }
+
+.pic {
+    border-radius: 10px;
+}
+
+#portfolio img {
+    max-width: 100%;
+    padding-bottom: 1.5rem;
+    overflow: hidden;
+}
+
 
 
