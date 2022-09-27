@@ -1,32 +1,42 @@
 /* Utility */
 :root {
 --emerald: rgba(26, 188, 156, 1);
---light-black: rgba(44, 62, 80, 1); /* anche per stella */
+--lightblack: rgba(44, 62, 80, 1); /* anche per stella */
 --white: rgba(255, 255, 255, 1);
 --section-black: rgba(51, 51, 51, 1);
---dark-blue: rgba(58, 84, 109, 1);
+--darkblue: rgba(58, 84, 109, 1);
 --black: rgba(0, 0, 0, 1);
+--lightgrey: #949CA3; 
 }
 
 body {
     color: var(--black);
 }
 
-a {
-    color: var(--white);
-}
 
 /* Style nav */
 
-header {
-    position: fixed;
+nav {
     height: 90px;
+    position: fixed;
     top: 0;
     width: 100%;
 }
 
+/* a:hover .my-hover {
+    color: var(--emerald);
+} */
+
+.my-text {
+    color: var(--white);
+}
+
+.my-toggler {
+    color: var(--lightgrey);
+}
+
 .bg-lightblack {
-    background-color: var(--light-black);
+    background-color: var(--lightblack);
 }
 
 /* Style main */
@@ -37,11 +47,7 @@ header {
 }
 
 .bg-darkblue {
-    background-color: var(--dark-blue);
-}
-
-#hero {
-    padding-top: 100px;
+    background-color: var(--darkblue);
 }
 
 #hero img {
