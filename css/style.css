@@ -1,0 +1,52 @@
+/* Utility */
+:root {
+--emerald: rgba(26, 188, 156, 1);
+--light-black: rgba(44, 62, 80, 1); /* anche per stella */
+--white: rgba(255, 255, 255, 1);
+--section-black: rgba(51, 51, 51, 1);
+--dark-blue: rgba(58, 84, 109, 1);
+--black: rgba(0, 0, 0, 1);
+}
+
+body {
+    color: var(--black);
+}
+
+a {
+    color: var(--white);
+}
+
+/* Style nav */
+
+header {
+    position: fixed;
+    height: 90px;
+    top: 0;
+    width: 100%;
+}
+
+.bg-lightblack {
+    background-color: var(--light-black);
+}
+
+/* Style main */
+
+.bg-green {
+    background-color: var(--emerald);
+    color: var(--white);
+}
+
+.bg-darkblue {
+    background-color: var(--dark-blue);
+}
+
+#hero {
+    padding-top: 100px;
+}
+
+img .avatar {
+    width: 70%;
+    max-width: 100%;
+}
+
+
