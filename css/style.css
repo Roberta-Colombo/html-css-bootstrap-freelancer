@@ -193,3 +193,16 @@ footer a:hover {
 #footer-bottom {
     font-size: 0.6rem;
 }
+
+/* MEDIAQUERY */
+
+@media screen and (min-width: 768px) {
+    #footer-top {
+        font-size: 1.2rem;
+    }
+
+    .social {
+        width: 40px;
+        height: 40px;
+    }
+}
