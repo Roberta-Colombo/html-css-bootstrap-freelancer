@@ -21,22 +21,33 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
-}
+} 
 
-nav {
+/* nav {
     height: 90px;
+}  */
+
+.navbar i {
+    color: var(--lightgrey);
+    border: 1px solid var(--lightgrey);
+    padding: 7px 12px;
+    border-radius: 5px;
 }
 
-/* a:hover .my-hover {
-    color: var(--emerald);
-} */
+.navbar-toggler:focus {
+    box-shadow: none;
+} 
 
-.my-text {
+.navbar-brand:hover {
     color: var(--white);
 }
 
-.my-toggler {
-    color: var(--lightgrey);
+#navbarNavAltMarkup .nav-link:hover {
+    color: var(--emerald);
+} 
+
+.my-text {
+    color: var(--white);
 }
 
 .bg-lightblack {
