@@ -60,6 +60,8 @@ header {
 
 /* Style main */
 
+/* portfolio */
+
 .bg-green {
     background-color: var(--emerald);
     color: var(--white);
@@ -83,7 +85,7 @@ section {
 
 .line {
     border: 1px solid;
-    width: 20%;
+    width: 100px;
     height: 3px;
     border-radius: 5px;
 }
@@ -134,4 +136,19 @@ section {
     color: var(--white);
 }
 
+/* about */
+#about button {
+    border: 1px solid var(--white);
+    background-color: transparent;
+    padding: 7px 10px;
+    margin-top: 2rem;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+#about button:hover {
+    opacity: 0.8;
+}
 
