@@ -58,7 +58,6 @@ header {
 /* Style main */
 
 /* portfolio */
-
 .bg-green {
     background-color: var(--emerald);
     color: var(--white);
@@ -99,7 +98,6 @@ section, #footer-top {
 }
 
 #portfolio img {
-    /* width: 100%; */
     max-width: 100%;
     border-radius: 10px;
 }
