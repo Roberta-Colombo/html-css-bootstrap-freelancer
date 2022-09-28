@@ -17,15 +17,12 @@ body {
 /* Style nav */
 
 header {
+    height: 90px;
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 1000; 
 } 
-
-/* nav {
-    height: 90px;
-}  */
 
 .navbar i {
     color: var(--lightgrey);
@@ -76,10 +73,13 @@ section {
     padding-bottom: 2.5rem;
 }
 
+#hero {
+    margin-top: 90px;
+}
+
 #hero img {
     width: 70%;
     max-width: 100%;
-    padding-top: 90px;
     padding-bottom: 1rem;
 }
 
