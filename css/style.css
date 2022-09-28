@@ -148,7 +148,19 @@ section {
     border-radius: 5px;
 }
 
-#about button:hover {
-    opacity: 0.8;
+#about button:hover, form button:hover {
+    opacity: 0.7;
 }
 
+.form-control {
+    border-style: none;
+    border-bottom: 1px solid var(--lightgrey);
+    border-radius: 0;
+    margin-bottom: 0.75rem;
+}
+
+button.btn.bg-green:hover {
+    border: 1px solid var(--emerald);
+    background-color: var(--emerald);
+    color: var(--white);
+}
